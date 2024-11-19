@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+}
+
+nav{
+    color: rgb(31, 31, 31);
+}
+
+nav div div:nth-of-type(1) a{
+    font-size: 12px;
+}
+
+#utente button img {
+    width: 30px;
+}
+
+#utente{
+    background-color: rgb(31, 31, 31);
+    margin-right: 5px;
+}
+
+#genere button{
+    border: 1px solid white;
+    border-radius: 0%;
+    height: 30px;
+    font-size: small;
+}
+
+#genere .btn:first-child {
+    border-right: none; 
+}
+
+#genere .dropdown-toggle-split {
+    border-left: none;
+}
+
+header div div:nth-of-type(2) div button{
+    border:1px solid rgb(71, 71, 71);
+    border-radius: 0%;
+    width: 40px;
+    height: 30px;
+    font-size: x-small;
+}
+
+#search{
+    display: none;
+    width: 250px;
+    justify-self: center;
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.contenitore{
+    overflow-y: scroll; 
+    scrollbar-width: none;
+}
+
+.film-slider{
+    display: flex;
+    width: 95%;
+    justify-self: end;
+    margin-top: 10px;
+    scrollbar-width: none;
+    gap:2px;
+    
+    
+    }
+
+.film-card img{
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.film-card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.navigation-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; 
+    
+}
+
+
+.prev {
+    left: 63px;
+}
+
+.next {
+    right: 0; 
+}
+
+.film-row{
+    white-space: nowrap;
+}
+
+
+.smart{
+    display: none;
+}
+
+.smart{
+    display: none;
+}
+.containe-footer{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+}
+
+@media (max-width: 576px) {
+    .smart {
+        display: block;
+    }
+
+    .big{
+        display: none;
+    }
+    .containe-footer{
+        width: 0%;
+        text-align: start;
+        padding: 0px;
+        margin: 4px;
+    }
+
+   
+}
+
+
+
+.Ftext{
+    font-size: 12px;
+}
+
+.Ftext span{
+    margin-top: 10px;
+}
+
+.Social{
+    font-size: 25px;
+}
+
+.Social i{
+    margin: 0px 8px;
+}
+
+.Cservice button{
+    background-color: rgb(31, 31, 31);
+    border-style: groove;
+    border-color: white;
+    font-size: 12px;
+}
+
+.Cservice p{
+    font-size: 11px;
+}
+
+.film-slider {
+    transition: transform 0.5s ease;
+}

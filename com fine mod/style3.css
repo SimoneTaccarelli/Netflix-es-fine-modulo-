@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+}
+
+nav{
+    color: rgb(31, 31, 31);
+}
+
+nav div div:nth-of-type(1) a{
+    font-size: 12px;
+}
+
+#utente button img {
+    width: 30px;
+}
+
+#utente{
+    background-color: rgb(31, 31, 31);
+    margin-right: 5px;
+}
+
+#genere button{
+    border: 1px solid white;
+    border-radius: 0%;
+    height: 30px;
+    font-size: small;
+}
+
+#genere .btn:first-child {
+    border-right: none; 
+}
+
+#genere .dropdown-toggle-split {
+    border-left: none;
+}
+
+header div div:nth-of-type(2) div button{
+    border:1px solid rgb(71, 71, 71);
+    border-radius: 0%;
+    width: 40px;
+    height: 30px;
+    font-size: x-small;
+}
+
+#search{
+    display: none;
+    width: 250px;
+    justify-self: center;
+}
+
+.CRimg{
+    width: 250px;
+   
+}
+
+.CRimg:hover{
+    transform: scale(1.1);
+}
+
+.film{
+    position: relative;
+    padding-left: 50px;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow: visible;
+}
+
+.BoTN{
+    position: absolute;
+    height: 140%;
+}
+
+.smart{
+    display: none;
+}
+.containe-footer{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+}
+
+
+@media (max-width: 576px) {
+    .smart {
+        display: block;
+    }
+
+    .big{
+        display: none;
+    }
+
+    .containe-footer{
+        width: 0%;
+        text-align: start;
+        padding: 0px;
+        margin: 4px;
+    }
+
+   
+}
+
+
+.Ftext{
+    font-size: 12px;
+}
+
+.Ftext span{
+    margin-top: 10px;
+}
+
+.Social{
+    font-size: 25px;
+}
+
+.Social i{
+    margin: 0px 8px;
+}
+
+.Cservice button{
+    background-color: rgb(31, 31, 31);
+    border-style: groove;
+    border-color: white;
+    font-size: 12px;
+}
+
+.Cservice p{
+    font-size: 11px;
+}
+
+.film-slider {
+    transition: transform 0.5s ease;
+}
+
+
