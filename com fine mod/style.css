@@ -98,10 +98,20 @@ header div div:nth-of-type(2) div button{
 
 .prev {
     left: 63px;
+    opacity: 0;
+}
+
+.prev:hover{
+   opacity: 1;
 }
 
 .next {
     right: 0; 
+    opacity: 0;
+}
+
+.next:hover{
+    opacity: 1;
 }
 
 .film-row{
