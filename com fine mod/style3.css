@@ -69,6 +69,11 @@ header div div:nth-of-type(2) div button{
 .BoTN{
     position: absolute;
     height: 140%;
+     opacity: 0;
+}
+
+.BoTN:hover{
+    opacity: 1;
 }
 
 .smart{
